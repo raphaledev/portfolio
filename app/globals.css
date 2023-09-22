@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #eaeff3;
+}
+
+.custom-hover:hover .arrow {
+    display: inline;
+    opacity: 0;
+    animation: appear 0.5s 0.2s forwards; /* 0.2s delay */
+}
+
+.animated-enter-active,
+.animated-leave-active {
+transition: opacity 1s, transform 1s;
+}
+.animated-enter, .animated-leave-active {
+opacity: 0;
+transform: translateX(-30px);
+}
+.animated-leave, .animated-enter-active {
+opacity: 1;
+transform: translateX(0);
+}
+
+
+
+@keyframes appear {
+to {
+    opacity: 1;
+    }
+}
