@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const portfolio = () => {
     return (
-        <div className='relative flex flex-col gap-8 bg-gradient-to-br from-mystic to-white rounded-2xl p-8' style={{boxShadow: '0px 0px 15px 5px rgba(255, 255, 255, 0.75)'}}>
+        <div id="portfolio" className='relative flex flex-col gap-8 bg-gradient-to-br from-mystic to-white rounded-2xl p-8' style={{boxShadow: '0px 0px 15px 5px rgba(255, 255, 255, 0.75)'}}>
             <h1 className="text-3xl font-bold">My Portfolio</h1>
             <hr className="border-t-black"/>
             <ul className="flex flex-col leading-loose tracking-wider text-lg">
