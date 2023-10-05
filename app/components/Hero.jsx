@@ -23,7 +23,7 @@ const Hero = () => {
             <p className="text-xl">As a freelance frontend developer, I specialize in turning design mockups into engaging, fully functional websites and web applications. I provide versatile web solutions to meet a variety of freelance project needs.</p>
             <div className="flex gap-4">
                 <Link href="#portfolio"><button className="bg-gradient-to-br from-mystic to-white shadow-2xl rounded-md px-8 py-2 text-red-400 hover:bg-gradient-to-r hover:from-red-400 hover:to-red-500 hover:text-white">See My Portfolio</button></Link>
-                <Link href="https://www.upwork.com/freelancers/raphaledev"><button className="bg-gradient-to-br from-mystic to-white shadow-2xl rounded-md px-8 py-2 text-red-400 hover:bg-gradient-to-r hover:from-red-400 hover:to-red-500 hover:text-white">Hire Me</button></Link>
+                <Link href="/contact"><button className="bg-gradient-to-br from-mystic to-white shadow-2xl rounded-md px-8 py-2 text-red-400 hover:bg-gradient-to-r hover:from-red-400 hover:to-red-500 hover:text-white">Hire Me</button></Link>
             </div> 
         </div>
     )
